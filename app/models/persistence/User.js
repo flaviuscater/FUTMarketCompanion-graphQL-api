@@ -5,7 +5,8 @@ mongoose.set('useFindAndModify', false);
 const UserSchema = new mongoose.Schema({
         userId: String,
         pushToken: { type : String , unique : true, required : true},
-        console: String
+        console: String,
+        allowPushNotifications: Boolean
     }, {
         timestamps: true
     }

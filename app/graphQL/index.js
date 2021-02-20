@@ -26,7 +26,6 @@ const typeDefs = gql`
         addPlayer(_id: ID!,
             name: String,
             imageUrl: String!,
-            currentPrice: Number,
             club: String!,
             nationality: String!,
             league: String!,
