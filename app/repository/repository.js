@@ -2,8 +2,8 @@
 const mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
 
-// const url = 'mongodb://localhost:27017/graphqldb';
-const url = 'mongodb://heroku_9jx3xgrr:p7o1dot8meqo3cp5sns1bpkqac@ds139984.mlab.com:39984/heroku_9jx3xgrr';
+//const url = 'mongodb://localhost:27017/graphqldb';
+const url = 'mongodb+srv://admin:admin1234@futmarketcluster.0p5up.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 
 mongoose.connect(process.env.MONGODB_URI || url);
 mongoose.connection.once('open', () =>{
