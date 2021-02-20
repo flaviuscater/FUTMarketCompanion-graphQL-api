@@ -10,7 +10,7 @@ const typeDefs = gql`
         _id: ID!,
         name: String,
         imageUrl: String,
-        currentPrice: Number,
+        currentPrice: Int,
         club: String,
         nationality: String,
         league: String,
